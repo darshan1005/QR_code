@@ -69,6 +69,19 @@ body{
     align-items: center;
 }
 
+.footer-tag{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-tag p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(188, 188, 188, 0.606);
+    margin-top: 30px;
+}
+
 .qr-footer a{
     background-color: var(--secondary-color);
     text-decoration: none;
@@ -78,16 +91,6 @@ body{
     color: var(--primary-color);
     border-radius: var(--border-radius);
     font-weight: 600;
-}
-.footer-tag{
-    display: flex;
-    justify-content: center;
-}
-
-.footer-tag p{
-    margin: 10px;
-    color: var(--secondary-color);
-    text-align: center;
 }
 
 .qr-body{
