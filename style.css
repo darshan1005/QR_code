@@ -79,6 +79,16 @@ body{
     border-radius: var(--border-radius);
     font-weight: 600;
 }
+.footer-tag{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-tag p{
+    margin: 10px;
+    color: var(--secondary-color);
+    text-align: center;
+}
 
 .qr-body{
     display: grid;
